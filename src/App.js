@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import Project from './Project';
+import Navbar from './Navbar';
 
 function App() {
   const projects = [
@@ -20,6 +21,7 @@ function App() {
 
   return (
     <div>
+      <Navbar></Navbar>
       <Header />
       <section>
         {projects.map((project, index) => (
