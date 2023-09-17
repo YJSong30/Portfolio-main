@@ -2,8 +2,9 @@ const Blogs = () => {
     return (
       <div className="blogs">
         <h2>Blogs</h2>
-        <p>Project 1: Description...</p>
-        <p>Project 2: Description...</p>
+        <br></br>
+        <p>In this section, I will post blogs to showcase my progress</p>
+        
       </div>
     );
   };
