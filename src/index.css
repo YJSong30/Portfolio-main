@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-/* base styles */
 * {
   margin: 0;
   font-family: "Quicksand";
@@ -76,3 +75,103 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+.blog-preview a{
+  text-decoration: none;
+}
+
+.blog-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.home, .skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.skills-content {
+  text-align: left;
+  padding-left: 20px; 
+}
+
+.home .skills{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.home > div {
+  display: flex;
+  align-items: flex-start;
+  text-align: left; 
+  margin: 20px 0; 
+
+}
+
+.home > div p {
+  margin-top: 2px;
+
+}
+
+.home > div img {
+  width: 300px;
+  height: auto;
+  margin-right: 20px; 
+}
+
+.home blockquote{
+  margin: 10px 0;
+  padding: 10px;
+  border-left: 5px solid #f1356d;
+  background-color: #f0f0f0; 
+}
+
+.home section {
+  margin: 20px 0;
+  text-align: center;
+  
+}
+
+.skills h2 {
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+.section-header{
+  border-bottom: 1px solid #f1356d;
+  padding: bottom 10px;
+  
+}
+
+
+

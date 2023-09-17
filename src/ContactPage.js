@@ -1,33 +1,46 @@
 import React, { useState } from "react";
-import axios from 'axios';
+import { useNavigate } from "react-router-dom";
+
 
 const ContactPage = () => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
+    const navigate =  useNavigate();
     
-    const handleSubmit = () => {
-        const form = { name, email, message };
-        console.log("Submitted! I will be in touch soon", form)
+    const handleSubmit = (e) => {
+      e.preventDefault();
 
+      if (name && email && message) {
+        const form = { name, email, message };
+        console.log(form);
+        navigate("/submitted");
+      } else {
+        alert("All fields are required");
+      }
     };
 
-    // const handleSubmit = async () => {
-    //     try {
-    //       const response = await axios.post('http://localhost:3001/contact', {
-    //         name,
-    //         email,
-    //         message,
-    //       });
-    //       console.log('Submitted!', response.data);
-    //     } catch (error) {
-    //       console.error('Error submitting form:', error);
-    //     }
-    //   };
+    // const handleSubmit = async (e) => {
+    //   e.preventDefault();
+      
+    //   axios
+    //     .post("http://127.0.0.1:3001/", {
+    //       name,
+    //       email,
+    //       message,
+    //     })
+    //     .then((response) => {
+    //       console.log("Email sent successfully:", response.data);
+    //     })
+    //     .catch((error) => {
+    //       console.error("Error sending email:", error);
+    //     });
+    // };
     
     return (
       <div className="create">
         <h2>Contact Me</h2>
+        <p>Submission is not working at the moment because the backend is currently in the works. Please email <b>youngsong1230@gmail.com</b> manually to contact me. Thank you.</p>
         <form onSubmit={handleSubmit}>
           <div>
             <label>Name:</label>
@@ -54,7 +67,7 @@ const ContactPage = () => {
               cols="50"
             ></textarea>
           </div>
-          <button type="button" onClick={handleSubmit}>Submit</button>
+          <button type="submit">Submit</button>
         </form>
       </div>
     );
