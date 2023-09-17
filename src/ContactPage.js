@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from 'axios';
 
 const ContactPage = () => {
     const [name, setName] = useState("");
@@ -10,6 +11,19 @@ const ContactPage = () => {
         console.log("Submitted! I will be in touch soon", form)
 
     };
+
+    // const handleSubmit = async () => {
+    //     try {
+    //       const response = await axios.post('http://localhost:3001/contact', {
+    //         name,
+    //         email,
+    //         message,
+    //       });
+    //       console.log('Submitted!', response.data);
+    //     } catch (error) {
+    //       console.error('Error submitting form:', error);
+    //     }
+    //   };
     
     return (
       <div className="create">

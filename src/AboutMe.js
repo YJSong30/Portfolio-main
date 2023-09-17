@@ -1,12 +1,10 @@
 const AboutMe = () => {
-  const handleClick = () => {
-    console.log("clicked");
-  };
-
   return (
-    <div className="projects">
+    <div className="about-me">
       <h2>About Me</h2>
-      <button onClick={handleClick}>click me</button>
+      <p>
+        Hi, my name is Young Song, a passionate developer with expereince in various web technologies
+      </p>
     </div>
   );
 };
