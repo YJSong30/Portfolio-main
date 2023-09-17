@@ -14,7 +14,7 @@ const Home = () => {
           <br></br>
 
           <div>
-            <p style={{ paddingBottom: 5 }}>
+            <p style={{ paddingBottom: 15 }}>
               Hi, my name is Young Song and I'm from Los Angeles, California. I
               am a highly motivated student who is committed to developing
               innovative projects and contributing to the professional world of
@@ -22,7 +22,7 @@ const Home = () => {
             </p>
             <p>
               I currently attend University of the Pacific where I originally
-              majored in Pharmacy but decided to switch to computer science
+              majored in pharmacy but decided to switch to computer science
               after being inspired by the rapid pace of technological
               innovation, which I want to be a part of in the future.
             </p>
@@ -46,11 +46,11 @@ const Home = () => {
               </p>
               <br></br>
               <p>
-                <b>Front-end: </b>ReactJS, HTML, CSS, React Native
+                <b>Front-end: </b>ReactJS, React Native, HTML, CSS
               </p>
               <br></br>
               <p>
-                <b>Back-end: </b>NodeJS, Flyspeed, MySQL, MongoDB
+                <b>Back-end: </b>NodeJS, MySQL, MongoDB, Flyspeed
               </p>
             </ol>
           </div>

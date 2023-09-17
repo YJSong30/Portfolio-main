@@ -6,6 +6,7 @@ import ContactPage from "./ContactPage";
 import Blogs from "./Blogs";
 import Submitted from "./Submitted";
 import Project from "./Project";
+import Footer from "./Footer";
 
 
 function App() {
@@ -23,6 +24,10 @@ function App() {
             
             
           </Routes>
+          <Footer>
+
+            
+          </Footer>
         </div>
       </div>
     </Router>
