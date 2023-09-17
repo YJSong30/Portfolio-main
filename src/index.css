@@ -16,7 +16,7 @@
 }
 
 .navbar h1 {
-  color: #f1356d;
+  color: red;
 }
 
 .navbar .links {
@@ -172,4 +172,6 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+
 

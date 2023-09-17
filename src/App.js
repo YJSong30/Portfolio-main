@@ -7,6 +7,7 @@ import Blogs from "./Blogs";
 import Submitted from "./Submitted";
 import Project from "./Project";
 import Footer from "./Footer";
+import './App.css';
 
 
 function App() {
@@ -21,13 +22,8 @@ function App() {
             <Route path="/blogs" element={<Blogs />} />
             <Route path="/projects" element={<Project />} />
             <Route path="/submitted" element={<Submitted />} />
-            
-            
           </Routes>
-          <Footer>
-
-            
-          </Footer>
+          <Footer></Footer>
         </div>
       </div>
     </Router>
