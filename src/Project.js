@@ -7,7 +7,7 @@ import { ProjectList } from './ProjectList';
 const Project = () => {
   return ( 
     <div className='projects'>
-      <h1>Personal Projects</h1>
+      <h2>Personal Projects</h2>
       <div className="projectList">
         {ProjectList.map((project, idx) => {
           return <ProjectItem id={idx} name={project.name} image={project.image}></ProjectItem>

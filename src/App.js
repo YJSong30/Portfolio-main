@@ -9,6 +9,10 @@ import Project from "./Project";
 import Footer from "./Footer";
 import './App.css';
 import ProjectDisplay from "./ProjectDisplay";
+import BlogDetail from './BlogDetail';
+import { blogList } from "./blogList";
+
+
 
 
 function App() {
@@ -24,6 +28,9 @@ function App() {
             <Route path="/projects" element={<Project />} />
             <Route path="/submitted" element={<Submitted />} />
             <Route path="/project/:id" element={<ProjectDisplay />} />
+            <Route path="/blogs" element={<Blogs />} />
+            <Route path="/blogs/:id" element={<BlogDetail blogs={blogList} />} />
+           
           </Routes>
           <Footer></Footer>
         </div>

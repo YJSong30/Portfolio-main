@@ -12,10 +12,10 @@ const Home = () => {
             style={{ width: "300px", height: "400px" }}
           />
           <br></br>
-
+ 
           <div>
             <p style={{ paddingBottom: 15 }}>
-              Hi, my name is Young Song and I'm from Los Angeles, California. I
+              Hi! My name is Young Song and I'm from Los Angeles, California. I
               am a highly motivated student who is committed to developing
               innovative projects and contributing to the professional world of
               software development.
