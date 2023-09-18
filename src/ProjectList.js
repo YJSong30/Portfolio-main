@@ -8,7 +8,7 @@ export const ProjectList = [
         description: "Java"
     },
     {
-        name: "Portfolio",
+        name: "Portfolio Website",
         image: proj2,
         description: "ReactJS"
     },

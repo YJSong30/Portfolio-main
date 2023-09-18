@@ -40,7 +40,7 @@ const ContactPage = () => {
     return (
       <div className="create">
         <h2>Contact Me</h2>
-        <p>Submission is not working at the moment because the backend is currently in the works. Please email <b>youngsong1230@gmail.com</b> or click the envelope icon at the bottom to contact me. Thank you.</p>
+        <p>Submission is not working at the moment because the back-end is currently in the works. Please email <b>youngsong1230@gmail.com</b> or click the envelope icon at the bottom to contact me. Thank you.</p>
         <br></br>
         <form>
         {/* <form onSubmit={handleSubmit}> */}
