@@ -16,7 +16,22 @@
 }
 
 .navbar h1 {
-  color: red;
+  color: #54b3d6;
+}
+
+.title {
+  cursor: pointer;
+}
+
+.title {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  
+  transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+.title:hover {
+  box-shadow: inset 200px 0 0 0 #54b3d6;
+  color: white;
 }
 
 .navbar .links {
