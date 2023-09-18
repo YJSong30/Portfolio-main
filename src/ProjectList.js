@@ -1,4 +1,5 @@
 import proj1 from './proj1.avif';
+import proj2 from './portfolio.jpg';
 
 export const ProjectList = [
     {
@@ -6,6 +7,12 @@ export const ProjectList = [
         image: proj1,
         description: "Java"
     },
+    {
+        name: "Portfolio",
+        image: proj2,
+        description: "ReactJS"
+    },
+    
     
 
 
