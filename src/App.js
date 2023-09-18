@@ -12,6 +12,7 @@ import ProjectDisplay from "./ProjectDisplay";
 import BlogDetail from './BlogDetail';
 import { blogList } from "./blogList";
 
+
 function App() {
   return (
     <Router>

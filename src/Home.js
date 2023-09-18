@@ -24,7 +24,7 @@ const Home = () => {
               I currently attend University of the Pacific where I originally
               majored in pharmacy but decided to switch to computer science
               after being inspired by the rapid pace of technological
-              innovation, which I want to be a part of in the future.
+              growth, which I want to be a part of in the future.
             </p>
             <br></br>
             <blockquote>
