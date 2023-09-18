@@ -1,0 +1,29 @@
+.project {
+    width: 100%;
+    height: calc(80vh - 100px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+  }
+  
+  .project h1 {
+    
+    color: #3e497a;
+    font-size: 35px;
+  }
+  .project img {
+    vertical-align: auto;
+    width: 300px;
+
+  }
+  
+  .project p {
+    font-size: 40px;
+    color: #3e497a;
+  }
+  
+  .project svg {
+    font-size: 60px;
+    color: #3e497a;
+  }

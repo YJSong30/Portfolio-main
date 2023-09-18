@@ -8,6 +8,7 @@ import Submitted from "./Submitted";
 import Project from "./Project";
 import Footer from "./Footer";
 import './App.css';
+import ProjectDisplay from "./ProjectDisplay";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Route path="/blogs" element={<Blogs />} />
             <Route path="/projects" element={<Project />} />
             <Route path="/submitted" element={<Submitted />} />
+            <Route path="/project/:id" element={<ProjectDisplay />} />
           </Routes>
           <Footer></Footer>
         </div>
