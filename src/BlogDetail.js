@@ -8,7 +8,11 @@ function BlogDetail({ blogs }) {
   return (
     blog ? (
       <div className="blog-details">
-        <h2>{blog.title}</h2>
+        <h2 style={{textAlign: 'center'}}>{blog.title}</h2>
+        
+        <img src={blog.image} width="600" height="400" alt={`${blog.title}`} />
+
+        <p style={{paddingTop: 3}}>{blog.date}</p>
         <div>{blog.content}</div>
         
       </div>

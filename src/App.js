@@ -12,9 +12,6 @@ import ProjectDisplay from "./ProjectDisplay";
 import BlogDetail from './BlogDetail';
 import { blogList } from "./blogList";
 
-
-
-
 function App() {
   return (
     <Router>
@@ -29,8 +26,10 @@ function App() {
             <Route path="/submitted" element={<Submitted />} />
             <Route path="/project/:id" element={<ProjectDisplay />} />
             <Route path="/blogs" element={<Blogs />} />
-            <Route path="/blogs/:id" element={<BlogDetail blogs={blogList} />} />
-           
+            <Route
+              path="/blogs/:id"
+              element={<BlogDetail blogs={blogList} />}
+            />
           </Routes>
           <Footer></Footer>
         </div>

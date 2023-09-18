@@ -8,9 +8,10 @@
 }
 .blog-preview h2 {
   font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #3917168e;
+  font-family:'Courier New', Courier, monospace;
+  color: #000000;
   margin-bottom: 8px;
+  
   
 }
 .blog-preview a{
@@ -19,7 +20,8 @@
 
 .blog-details h2 {
   font-size: 20px;
-  color: #f1356d;
+  font-family:'Courier New', Courier, monospace;
+  color: #000000;
   margin-bottom: 10px;
 }
 .blog-details div {
