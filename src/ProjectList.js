@@ -6,7 +6,7 @@ export const ProjectList = [
         name: "2D Fruit Ninja",
         image: proj1,
         description: [
-            "Worked in a group of three to develop a 2D version of the popular IOS game 'Fruit Ninja'",
+            "Worked in a group of three to develop a 2D version of the popular IOS game 'Fruit Ninja' using Java Eclipse",
             "Created a user-friendly UI where the player can navigate to diffferent sections",
             "Implemented difficulty levels, point multipliers, timer, and leaderboard"
         ] 
