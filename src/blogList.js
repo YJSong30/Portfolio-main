@@ -1,6 +1,9 @@
 import mark from './podcast.jpg';
+import ios17 from './ios17.avif';
 
 export const blogList = [
+  { id: 2, title: "IOS 17 Update", content: "The hottest news surrounding Apple fans is the new IOS 17 update, and I wanted to talk about some of the features. The most notable feature that Apple added is the Live Voicemail. This feature allows the caller to send a voicemail, which is translated into text for the receiver. They can then decide to pick up the call or leave it on voicemail. This is nice to have since sometimes you'd like to know who is calling at the moment without having to wait until the voicemail is finished. Another interesting feature is that when the phone is charging, it can be used as a display with different widgets such as a clock, calendar, etc. This can be useful replacement for me since I have a nightstand clock, which takes up lots of space. I'm excited for what else Apple will come up with in their next update.", image: ios17, date: "September 17, 2023" },
   { id: 1, title: "The Future of AI", content: "Today, I watched Lex Fridman's Podcast with Mark Zuckerberg titled 'Mark Zuckerberg: Future of AI at Meta, Facebook, Instagram, and WhatsApp' and had to comment on one thing. Currently, the biggest topic surrounding modern era in the tech industry is AI (Aritifical Intelligence). With Meta being one of the largest leaders in AI, Mark Zuckerberg opened up about his opinion behind Large Language Models or LLMs. Mark supported the idea of open source release of these models. My stance on this is that there should be some limitations and surveillance of this technology. A benefit of releasing an open source model is that people can use it and find ways to exploit it, which would allow for more security in the future. The downside is that if these exploits are large enough where there is little security, then the outcomes can be catastrophic.", image: mark, date: "September 16, 2023" },
+  
   
 ];
