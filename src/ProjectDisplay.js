@@ -9,8 +9,13 @@ function ProjectDisplay() {
   return (
     <div className="project">
       <h1>{project.name}</h1>
-      <img src={project.image} alt="fruit-ninja-pic"></img>
-      <p>Description: {project.description}</p>
+      <img src={project.image} alt="pic"></img>
+      <p>Description:</p>
+      <ul>
+        {project.description.map((desc, index) => (
+          <li key={index}>{desc}</li>
+        ))}
+      </ul>
     </div>
   );
 }
