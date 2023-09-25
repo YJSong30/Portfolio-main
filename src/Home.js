@@ -50,7 +50,7 @@ const Home = () => {
               </p>
               <br></br>
               <p>
-                <b>Back-end: </b>NodeJS, MySQL, MongoDB, Flyspeed
+                <b>Back-end: </b>NodeJS, MySQL, MongoDB
               </p>
             </ol>
           </div>
