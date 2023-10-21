@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, Text } from "react";
 import { useNavigate } from "react-router-dom";
 
 
@@ -20,23 +20,6 @@ const ContactPage = () => {
       }
     };
 
-    // const handleSubmit = async (e) => {
-    //   e.preventDefault();
-      
-    //   axios
-    //     .post("http://127.0.0.1:3001/", {
-    //       name,
-    //       email,
-    //       message,
-    //     })
-    //     .then((response) => {
-    //       console.log("Email sent successfully:", response.data);
-    //     })
-    //     .catch((error) => {
-    //       console.error("Error sending email:", error);
-    //     });
-    // };
-    
     return (
       <div className="create">
         <h2>Contact Me</h2>
@@ -44,6 +27,7 @@ const ContactPage = () => {
         <form>
         {/* <form onSubmit={handleSubmit}> */}
           <div>
+            <h3>Currently submission is not working. Please email me directly at youngsong1230@gmail.com. Thank you!</h3>
             <label>Name:</label>
             <input
               type="text"
